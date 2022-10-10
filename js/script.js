@@ -16,3 +16,17 @@
 //  Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 //  Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 // Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
+
+for (let i = 1; i <= 100; i++) {
+    let fizzBuzz = "";
+    if (i % 3 === 0 && i % 5 === 0) {
+        fizzBuzz = "fizzBuzz"
+    }else
+    if (i % 3 === 0) {
+        fizzBuzz = "fizz";
+    }else
+    if (i % 5 === 0){
+        fizzBuzz = "buzz";
+    }
+    console.log(i, fizzBuzz);
+}
